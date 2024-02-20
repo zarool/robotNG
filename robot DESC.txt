@@ -1,0 +1,13 @@
+APP - GUI, calculations
+ENV - sockets, dockers, communication
+FIRMWARE - servo movement, ESP32 code
+
+TODO
+1. GUI app
+ - simple buttons (sliders)
+ - send value of each button click to udp server
+ - show simple information about docker, IP, connection status
+ - exit button
+2. ESP connection
+ - UDP server ESP - received data show in terminal (netcat)
+ - ESP - connect servo
