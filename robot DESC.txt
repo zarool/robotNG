@@ -1,7 +1,3 @@
-APP - GUI, calculations
-ENV - sockets, dockers, communication
-FIRMWARE - servo movement, ESP32 code
-
 TODO
 1. GUI app
  - simple buttons (sliders)
