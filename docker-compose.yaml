@@ -1,0 +1,12 @@
+version: '3'
+services:
+  rob-server:
+    build:
+      context: .
+      dockerfile: env/Dockerfile
+    ports:
+      - "8000:8000/udp"
+  rob-client:
+    build:
+      context: .
+      dockerfile: app/Dockerfile

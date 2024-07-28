@@ -1,7 +1,6 @@
 import socket
 
-HOST = "0.0.0.0"
-# socket.gethostbyname(socket.gethostname())
+HOST = '0.0.0.0'
 PORT = 8000
 
 server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

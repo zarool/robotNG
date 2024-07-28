@@ -1,10 +1,8 @@
 import socket
 from socket import timeout
 
-print(f'Client IP is: {socket.gethostbyname(socket.gethostname())}')
-
-HOST = 'rob-server'
-PORT = 8000
+HOST = 'localhost'
+PORT = 8001
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 socket.settimeout(1.0)
