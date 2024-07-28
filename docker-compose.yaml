@@ -6,7 +6,11 @@ services:
       dockerfile: env/Dockerfile
     ports:
       - "8000:8000/udp"
-  rob-client:
+  rob-app:
     build:
       context: .
       dockerfile: app/Dockerfile
+  rob-esp:
+    build:
+      context: .
+      dockerfile: firmware/Dockerfile
